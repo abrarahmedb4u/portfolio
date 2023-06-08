@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <section id="home">
+        <div class="container">
+            <h1>Welcom to my Portfolio</h1>
+          </div>
+        <div class="card" id="education" onclick="scrollToSection('education-page')">
+            <h2>Education</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu enim a tellus accumsan scelerisque ut vitae est.</p>
+        </div>
+        <div class="card" id="experience" onclick="scrollToSection('experience-page')">
+            <h2>Experience</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu enim a tellus accumsan scelerisque ut vitae est.</p>
+        </div>
+        <div class="card" id="projects" onclick="scrollToSection('projects-page')">
+            <h2>Projects</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu enim a tellus accumsan scelerisque ut vitae est.</p>
+        </div>
+    </section>
+
+    <section class="container", id ='education-page'>
+        <h1>Education</h1>
+        
+    </section>
+</section>
+<div class="para">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, fuga! Tenetur debitis cumque et eveniet at mollitia, consequatur quo ut reiciendis nihil, animi similique accusamus quaerat culpa facere dolores dolore!</p>
+</div>
+    <section class="container", id="experience-page">
+        <h1>Experience</h1>
+        <!-- Add experience details here -->
+    </section>
+</section>
+<div class="para">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, fuga! Tenetur debitis cumque et eveniet at mollitia, consequatur quo ut reiciendis nihil, animi similique accusamus quaerat culpa facere dolores dolore!</p>
+</div>
+    <section class="container", id="projects-page">
+        <h1>Projects</h1>
+        <!-- Add project details here -->
+    </section>
+    <div class="para">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, fuga! Tenetur debitis cumque et eveniet at mollitia, consequatur quo ut reiciendis nihil, animi similique accusamus quaerat culpa facere dolores dolore!</p>
+    </div>
+   
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+</body>
+</html>
